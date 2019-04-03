@@ -14,7 +14,10 @@ const rl = readline.createInterface({
 readline.emitKeypressEvents(process.stdin);
 
 process.stdin.on("keypress", (s, key) => {
-  answerline += key.name;
+  const killCmd = key.ctrl && ['c', 'd'].includes(key.name);
+  if (!killCmd) {
+    answerline += key.name;
+  }
 });
 
 rl.on("SIGINT", () => {
