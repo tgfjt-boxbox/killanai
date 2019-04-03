@@ -23,7 +23,7 @@ rl.on("SIGINT", () => {
 
 rl.on("line", line => {
   if (answerline === "upupdowndownleftrightleftrightba") {
-    console.log("hvae a nice day!");
+    console.log("have a nice day!");
     rl.close();
     process.exit(0);
   }
