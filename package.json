@@ -1,0 +1,29 @@
+{
+  "name": "@tgfjt/killanai",
+  "version": "1.0.0",
+  "description": "kill...anai",
+  "main": "main.js",
+  "bin": {
+    "killanai": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgfjt-boxbox/killanai.git"
+  },
+  "keywords": [],
+  "author": "tgfjt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgfjt-boxbox/killanai/issues"
+  },
+  "homepage": "https://github.com/tgfjt-boxbox/killanai#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "terminal-image": "^0.1.2"
+  }
+}
