@@ -1,6 +1,6 @@
 {
   "name": "@tgfjt/killanai",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "kill...anai",
   "main": "main.js",
   "bin": {
@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/tgfjt-boxbox/killanai#readme",
   "dependencies": {
+    "terminal-image": "^0.1.2",
     "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "terminal-image": "^0.1.2"
   }
 }
